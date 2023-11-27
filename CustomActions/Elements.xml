@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomActionGroup
+     Id="MANSoftDev.ManagedMetadataGroup"
+     Location="Microsoft.SharePoint.Administration.Applications"
+     Title="Managed Metadata" 
+     ImageUrl="_layouts/Images/PORT_MAP.GIF"/>
+  <CustomAction
+    Id="MANSoftDev.ManagedMetadata.TermStore"
+    Title="Term store management"
+    GroupId="MANSoftDev.ManagedMetadataGroup"
+    Location="Microsoft.SharePoint.Administration.Applications">
+      <UrlAction Url="_layouts/termstoremanager.aspx"/>
+  </CustomAction>
+  <CustomAction
+    Id="MANSoftDev.ManagedMetadata.Import"
+    Title="Import Managed Metadata"
+    GroupId="MANSoftDev.ManagedMetadataGroup"
+    Location="Microsoft.SharePoint.Administration.Applications">
+      <UrlAction Url="_layouts/MANSoftDev/TaxonomyImport/ImportMetadata.aspx"/>
+  </CustomAction>
+</Elements>
